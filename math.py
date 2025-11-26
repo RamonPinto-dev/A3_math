@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 x = sp.Symbol('x')
 f = x**2 - 4*x + 4  # Exemplo: mínimo em x=2
 # f = x**3 - 6*x**2 + 4*x + 12 # ele não converge, só explode ou seja infinito
-#sobe e desce infinito ent n é convexa
+#sobe e desce infinito ent n é convexa. dois ponto critico
 
 # Derivada primeira
 primeiro = sp.diff(f, x)
