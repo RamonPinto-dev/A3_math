@@ -1,21 +1,8 @@
 import sympy as sp
 import numpy as np
 import matplotlib.pyplot as plt
-# o obj do codigo é simplesmente mostrar como o algortimo de otimização funciona e 
-# como eles podem encontrar o mínimo sem depender da fórmula 
-# exata da derivada que comummente é produzida a mão. e isso se torna muito util, pois
-# em muitos problemas reais a função é muito complexa, cheia de variáveis, e as vezes não existe solução analítica
-# ou a derivada existe, mas não é possível achar f′(x)=0 tão fácil 
-# ou lida com uma machine que milhares de parametros são ajustados por gradiente descendente
-#em resumo 
-#a aplicação do método de otimização por Gradiente Descendente neste código tem como finalidade 
-# ilustrar como um computador encontra o ponto mínimo de uma função mesmo sem resolver analiticamente 
-# a equação da derivada igual a zero. Embora a função escolhida seja simples e permita uma solução 
-# exata, o uso do gradiente descendente simula, o algoritmos de otimização utilizados em problemas 
-# # reais, como ajustes de modelos matemáticos etc. dessa maneira, o método numérico serve como 
-# comparação prática com o método analítico, demonstrando o processo de convergência iterativa 
-# spara o mínimo global da função.
-# resumo do resumo , o código otimiza o valor de x que faz a função ficar no menor valor possível.
+# o código otimiza o valor de x que faz a função ficar no menor valor possível.
+#baixar as bibliotecas, pip install sympy numpy matplotlib terminal
 
 #função+var
 x = sp.Symbol('x')
