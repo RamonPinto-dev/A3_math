@@ -96,4 +96,4 @@ e se quiser adicionar uma função nova, só escrever por cima das anteriores
 ou criar um f novo e comentar os outros ou apagar, fica aberto ao cliente oque decidir
 
 ex:
-f = 3x**2 + 5*x −7
+f = 3*x**2 + 5*x −7
